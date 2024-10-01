@@ -1,0 +1,56 @@
+/* Cuerpo */
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: #D8BFD8;
+    text-align: center;
+}
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 70vh; 
+}
+
+.titulo {
+    margin-top: 80px; 
+    color: rgb(158, 105, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin: 20px;
+    flex-wrap: wrap; 
+}
+
+p {
+    font-size: 20px;
+    margin: 30px; 
+    color: rgb(117, 32, 115);
+}
+
+.boton {
+    background-color: rgb(133, 220, 226);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-color: rgb(196, 196, 196);
+    transition: background-color 0.3s; 
+}
+
+.boton:hover {
+    background-color: #76c1c0; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 32, 115);
+    font-weight: bold; 
+}
