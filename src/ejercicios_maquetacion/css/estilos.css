@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Barlow-condensed;
+    src: url(../tipografias/BarlowCondensed-SemiBold.ttf);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.actividad1 {
+    background-color: #ba68c8;
+    height: 900px;
+    padding: 60px;
+}
+
+.actividad1 .tarjeta1 {
+    width: 410px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.actividad1 .tarjeta1 img {
+    margin-bottom: 16px;
+}
+
+.actividad1 .tarjeta1 .datos_carga {
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.actividad1 .tarjeta1 .datos_carga p:nth-child(1) {
+    font-size: 64px;
+    font-weight: bold;
+    color: #6D25B9;
+}
+
+.actividad1 .tarjeta1 .datos_carga p:nth-child(2) {
+    font-size: 18px;
+    color: #7C767E;
+}
+
+.actividad1 .tarjeta1 .lista_archivos {
+    margin-bottom: 46px;
+}
+
+.actividad1 .tarjeta1 .lista_archivos li {
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.actividad1 .tarjeta1 a {
+    display: block;
+    margin: 0 auto;
+    width: 146px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+    background-color: #7327E4;
+}
+
+.actividad2 {
+    background-color: #98A0A7;
+}
+
+.actividad2 .tarjeta2 {
+    width: 607px;
+    padding: 165px 70px 80px 70px;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li {
+    margin-bottom: 77px;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li img {
+    width: 305px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li .text {
+    width: 467px;
+    text-align: center;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li .text p:nth-child(1) {
+    font-family: serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li .text p:nth-child(2) {
+    font-size: 22px;
+    margin-bottom: 138px;
+}
+
+.actividad2 .tarjeta2 .pantalla_1 li a {
+    display: block;
+    width: 352px;
+    padding: 21px 96px;
+    background-color: #F2B14A;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.actividad2 .tarjeta2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.actividad2 .tarjeta2 ul li button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: none;
+    margin-right: 18px;
+    border-radius: 50%;
+    text-indent: -9999px;
+    background-color: #e5eaed;
+}
+
+.actividad2 .tarjeta2 ul li .activo {
+    background-color: #98A0A7;
+}
+
+.actividad3 {
+    background-color: pink;
+}
+
+.tarjeta3 {
+    width: 489px;
+    margin: 0 auto;
+    background-color: #9C466A;
+    padding: 25px 40px 30px 40px;
+}
+
+.tarjeta3 .contenido_principal {
+    width: 408px;
+    padding: 30px 50px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.tarjeta3 .contenido_principal img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tarjeta3 .contenido_principal .text {
+    text-align: center;
+    width: 308px;
+    margin-top: 32px;
+}
+
+.tarjeta3 .contenido_principal .text p:nth-child(1) {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.tarjeta3 .contenido_principal .text p:nth-child(2) {
+    font-size: 18px;
+}
+
+.tarjeta3 a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: block;
+    background-color: #EE68A1;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+}
+
+.actividad4 .tarjeta4 {
+    width: 1597px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #FAF7F3;
+    border: 15px solid black;
+}
+
+.actividad4 .tarjeta4 .contenido {
+    width: 1537px;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 294px;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_header p:nth-child(2) {
+    width: 337px;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_middle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_imagen {
+    display: flex;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_imagen img {
+    width: 540px;
+}
+
+.actividad4 .tarjeta4 .contenido .texto_imagen p {
+    font-size: 650px;
+    font-family: Barlow-condensed;
+    line-height: 0.7;
+    letter-spacing: -55px;
+}
+
+.actividad5 {
+    background-color: rgb(174, 174, 174);
+}
+
+.tarjeta5 {
+    width: 647px;
+    margin: 0 auto;
+    padding: 68px 40px 24px 40px;
+    background-color: #fff;
+}
+
+.tarjeta5 .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+}
+
+.tarjeta5 .header .usuario {
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta5 .header a {
+    font-size: 28px;
+    padding: 10px 21px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.tarjeta5 .header .usuario p {
+    font-size: 22px;
+}
+
+.tarjeta5 .header .usuario img {
+    border-radius: 50%;
+    margin-left: 39px;
+    width: 60px;
+    height: 60px;
+}
+
+.tarjeta5 .contenido .datos {
+    margin-bottom: 135px;
+}
+
+.tarjeta5 .contenido .datos .title {
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tarjeta5 .contenido .subtitulo {
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.tarjeta5 .contenido .content p:nth-child(1) {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.tarjeta5 .contenido .content ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+.tarjeta5 .contenido .content ul li p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.tarjeta5 .contenido .content ul li img {
+    border-radius: 18px;
+    font-weight: bolder;
+    width: 264px;
+    height: 329px;
+}

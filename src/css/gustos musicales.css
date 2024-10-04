@@ -11,7 +11,6 @@ body {
 
 main {
   flex: 1;
-  padding-top: 5%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -76,5 +75,4 @@ li::before {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #cb80df; 
 }
