@@ -328,3 +328,18 @@ body {
     width: 264px;
     height: 329px;
 }
+
+.back-button a {
+    margin: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid var(--gris);
+    border-radius: 5px;
+    color: var(--gris);
+}
+
+.back-button a:hover {
+    background-color: var(--gris);
+    color: var(--blanco);
+}
