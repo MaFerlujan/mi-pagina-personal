@@ -1,14 +1,123 @@
-*{
+/* Estilos generales */
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
 }
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(to bottom, #f1c9f1, #ffd6ff); 
+    margin-top: 7%;
+    text-align: center;
+}
+
+/* Fuentes */
 @font-face {
     font-family: Barlow-medium;
-    src: url(../tipografias/BarlowCondensed-Medium.ttf)
+    src: url(../tipografias/BarlowCondensed-Medium.ttf);
 }
+
+/* Contenedor principal */
+.container {
+    margin: 5% auto;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px; 
+    background-color: #f5e3f4;
+}
+
+.container h1 {
+    margin-top: 20px; 
+    color: rgb(158, 105, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+/* Gustos musicales e intereses */
+.gustos-musicales,
+.intereses {
+    width: 80%; 
+    margin: 20px 0; 
+    border-radius: 15px;
+    overflow: hidden;
+    background: #d098e3; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s; 
+}
+
+.gustos-musicales:hover,
+.intereses:hover {
+    transform: scale(1.02); 
+}
+
+.gustos-musicales img,
+.intereses img {
+    width: 90%; 
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 15px 0; 
+}
+
+.gustos-musicales h2,
+.intereses h2 {
+    padding: 15px; 
+    text-align: center;
+    color: #fff; 
+    margin: 10px 0;
+    font-size: 40px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+
+.gustos-musicales p,
+.intereses p {
+    padding: 15px;
+    text-align: center;
+    color: #fff; 
+    margin-bottom: 10px;  
+    font-size: 20px; 
+    line-height: 1.5; 
+}
+
+/* Contenido adicional */
+.contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px; 
+    margin-top: 10px;
+    color: #fff;
+    background: rgba(158, 105, 179, 0.8); 
+    border: 2px solid #fff; 
+    border-radius: 4px; 
+    transition: background 0.3s, color 0.3s; 
+}
+
+.contenido a:hover {
+    background: #fff; 
+    color: rgb(158, 105, 179);
+}
+
+/* Estructura principal */
+main {
+    flex: 1 0 auto;
+}
+
+/* Encabezado */
 header {
     position: fixed;
     top: 0;
@@ -74,18 +183,18 @@ header {
     color: rgb(133, 220, 226); 
 }
 
-/*Portada*/
-.container-cover{
+/* Portada */
+.container-cover {
     width: 100%;
     height: 400px;
     position: relative;
-    top: 80px;
     background-image: url(../imagenes/portada.jpg);
-    background-position:center ;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
 }
-.container-cover::before{
+
+.container-cover::before {
     content: '';
     width: 100%;
     height: 100%;
@@ -94,34 +203,37 @@ header {
     top: 0;
     left: 0;
 }
-.container-info-cover{
+
+.container-info-cover {
     max-width: 800px;
     height: 400px;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
     position: relative;
-    flex-direction: column;
     z-index: 1;
 }
-.container-info-cover h1{
+
+.container-info-cover h1 {
     font-size: 70px;
-    font-weight: 500px;
+    font-weight: 500;
     color: rgb(133, 220, 226);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
 }
-.container-info-cover p{
+
+.container-info-cover p {
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
 }
 
-/*card*/
+/* Tarjeta */
 .card {
     background-color: #b04aac; 
     border-radius: 10px;
@@ -131,31 +243,32 @@ header {
     width: 600px; 
     height: 800px;
     margin-top: 10%;
-  }
-  
-  .card-img-top {
+}
+
+.card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
     height: 80%; 
     object-fit: cover;
-  }
-  
-  .card-body {
+}
+
+.card-body {
     padding: 20px;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff; 
-  }
-  
-  .card-text {
+}
+
+.card-text {
     font-size: 20px;
     color: #ffffff;
-  }
-/*FOOTER*/
+}
+
+/* Pie de página */
 footer {
     width: 100%;
     background-color: rgb(93, 41, 85);
@@ -234,8 +347,11 @@ footer {
     margin-top: 20px;
     font-size: 14px; 
 }
+
+/* Sección de hobbies */
 .hobbies-section {
     margin-bottom: 80px; 
+    text-align: center; 
 }
 
 .main-content {
@@ -245,6 +361,67 @@ footer {
     min-height: calc(100vh - 80px); 
 }
 
-.hobbies-section {
-    text-align: center; 
+.hobbies-container {
+    background-color: #ffffff; 
+    border: 2px solid #f5e3f4; 
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    padding: 40px; 
+    margin: 50px auto; 
+    width: 90%; 
+    max-width: 800px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hobbies-container:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+}
+
+.titulo {
+    margin-top: 20px; 
+    color: rgb(158, 105, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 22px; 
+    position: relative; 
+    padding-left: 20px; 
+}
+
+p {
+    line-height: 1.6; 
+    font-size: 18px;
+    color: #555; 
+    margin: 15px; 
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 60px; 
+    }
+    h2 {
+        font-size: 28px; 
+    }
+    li {
+        font-size: 20px; 
+    }
 }
