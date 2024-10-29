@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5e3f4;
+}
+
+.friendship-section {
+  max-width: 800px; 
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.friendship-section h1 {
+  text-align: center;
+  color: rgb(158, 105, 179);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 80px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.friendship-section p {
+  text-align: center;
+  margin: 15px 0; 
+  line-height: 1.6;
+  color: #555;
+  font-size: 1.1rem; 
+}
+
+.friendship-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; 
+}
+
+.friendship-section li {
+  margin-bottom: 15px; 
+  padding: 15px;
+  border-left: 5px solid rgb(158, 105, 179); 
+  background-color: #f9f9f9; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s; 
+}
+
+.friendship-section li:hover {
+  transform: translateY(-2px); 
+}
+

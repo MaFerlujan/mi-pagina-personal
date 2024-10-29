@@ -1,0 +1,73 @@
+/*cuerpo pagina*/
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(to bottom, #f1c9f1, #d996d9); 
+    margin-top: 7%;
+    text-align: center;
+}
+
+.hobbies-container {
+    background-color: #ffffff; 
+    border: 2px solid #f5e3f4; 
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    padding: 40px; 
+    margin: 50px auto; 
+    width: 90%; 
+    max-width: 800px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hobbies-container:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+}
+
+.titulo {
+    margin-top: 20px; 
+    color: rgb(158, 105, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 22px; 
+    position: relative; 
+    padding-left: 20px; 
+}
+
+p {
+    line-height: 1.6; 
+    font-size: 18px;
+    color: #555; 
+    margin: 15px ; 
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 60px; 
+    }
+    h2 {
+        font-size: 28px; 
+    }
+    li {
+        font-size: 20px; /
+    }
+}
+
